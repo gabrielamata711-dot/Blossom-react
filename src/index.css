@@ -1,0 +1,122 @@
+:root {
+  --primary-color: #c2185b;
+  --primary-hover: #ad1457;
+  --bg-card: #fce4ec;
+  --text-dark: #212121;
+  --white: #ffffff;
+
+  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
+  --heading: system-ui, "Segoe UI", Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color-scheme: light dark;
+  color: var(--text-dark);
+  background: var(--white);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+#root,
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.shop_main_container,
+main {
+  flex: 1;
+  width: 100%;
+  max-width: 100% !important;
+  padding: 140px 2rem 4rem 2rem !important;
+  box-sizing: border-box;
+  background-color: var(--white);
+}
+
+h1,
+h2 {
+  font-family: var(--heading);
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+h1 {
+  font-size: 56px;
+  letter-spacing: -1.68px;
+  margin: 32px 0;
+  @media (max-width: 1024px) {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 118%;
+  letter-spacing: -0.24px;
+  margin: 0 0 8px;
+  @media (max-width: 1024px) {
+    font-size: 20px;
+  }
+}
+
+p {
+  margin: 0;
+}
+
+code {
+  font-family: var(--mono);
+  display: inline-flex;
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 135%;
+  padding: 4px 8px;
+}
+
+.welcome_section {
+  text-align: center;
+  margin-bottom: 4.5rem !important;
+}
+
+.welcome_title {
+  color: #c2185b !important;
+  font-size: 2.8rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.welcome_subtitle {
+  color: #f48fb1 !important;
+  font-size: 1.4rem !important;
+  font-weight: 400 !important;
+  font-style: italic !important;
+  text-align: center;
+  margin: 0 0 2rem 0;
+}
+
+.section_title {
+  color: #c2185b !important;
+  font-size: 2.8rem !important;
+  text-align: center;
+  margin-bottom: 0.8rem !important;
+  font-weight: 700 !important;
+}

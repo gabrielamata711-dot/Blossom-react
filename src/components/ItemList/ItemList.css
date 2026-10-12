@@ -1,0 +1,35 @@
+.products-container {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.btn_add_cart,
+.card button {
+  display: block;
+  width: calc(100% - 2rem);
+  margin: 0.5rem auto 1rem auto;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn_add_cart:hover,
+.card button:hover {
+  background-color: var(--primary-hover);
+}
+
+.product-item-link {
+  text-decoration: none !important;
+  color: inherit !important;
+  display: block;
+}

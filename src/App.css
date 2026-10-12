@@ -1,0 +1,67 @@
+#root,
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.shop_main_container,
+main {
+  flex: 1;
+  background-color: var(--white);
+  width: 100%;
+  max-width: 100% !important;
+
+  padding: 90px 3rem 4rem 3rem !important;
+  box-sizing: border-box;
+}
+
+.welcome_section {
+  text-align: center;
+
+  margin-bottom: 2rem !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome_title {
+  color: #c2185b !important;
+  font-size: 3.4rem !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.5px;
+  margin: 0 !important;
+
+  padding-bottom: 1.5rem !important;
+  font-family: "Poppins", sans-serif;
+}
+
+.welcome_subtitle {
+  color: #f48fb1 !important;
+  font-size: 1.6rem !important;
+  font-weight: 400 !important;
+  font-style: italic !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  letter-spacing: 0.5px;
+}
+
+.section_title,
+main h3 {
+  color: #212121 !important;
+  font-size: 2.2rem !important;
+  font-weight: 700 !important;
+
+  display: block !important;
+  text-align: center !important;
+  width: 100% !important;
+
+  left: 0 !important;
+  transform: none !important;
+
+  margin-top: 1.5rem !important;
+  margin-bottom: 3rem !important;
+}

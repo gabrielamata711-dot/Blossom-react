@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Florero 18 rosas",
+    "price": 45.99,
+    "image": "/img/18_rosas.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Arrimo de rosas con girasoles y gipsu",
+    "price": 70.99,
+    "image": "/img/Arrimo_rosas_girasoles_gipsu.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Ramo 30 girasoles",
+    "price": 70.99,
+    "image": "/img/30_girasoles.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Escalera de Rosas con peluche",
+    "price": 70.99,
+    "image": "/img/esc_rosa_peluche_globo.jpeg"
+  }
+]

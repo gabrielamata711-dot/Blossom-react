@@ -1,0 +1,34 @@
+.main_header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fce4ec; /* 👈 Cambiamos a rosa pastel suave */
+  border-bottom: 2px solid #f48fb1; /* Una línea divisoria sutil */
+  padding: 1.2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_link {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none !important;
+}
+
+.logo_img {
+  width: 32px;
+  height: auto;
+  border-radius: 8px;
+  border: none;
+}
+
+.logo_text {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #c2185b;
+  letter-spacing: "Poppins", sans-serif;
+}
