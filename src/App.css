@@ -14,7 +14,6 @@ main {
   background-color: var(--white);
   width: 100%;
   max-width: 100% !important;
-  /* Espaciado responsivo base */
   padding: 90px 3rem 4rem 3rem !important;
   box-sizing: border-box;
 }

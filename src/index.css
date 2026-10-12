@@ -158,5 +158,18 @@ code {
     width: 100% !important;
     max-width: 340px !important;
     box-sizing: border-box !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    min-height: 420px !important;
+  }
+
+  .card img,
+  .product_card img {
+    width: 100% !important;
+    height: 250px !important;
+    object-fit: cover !important;
+    border-radius: 8px 8px 0 0 !important;
   }
 }
