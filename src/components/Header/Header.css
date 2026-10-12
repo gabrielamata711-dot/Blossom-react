@@ -4,8 +4,8 @@
   left: 0;
   width: 100%;
   box-sizing: border-box;
-  background-color: #fce4ec; /* 👈 Cambiamos a rosa pastel suave */
-  border-bottom: 2px solid #f48fb1; /* Una línea divisoria sutil */
+  background-color: #fce4ec;
+  border-bottom: 2px solid #f48fb1;
   padding: 1.2rem 4rem;
   display: flex;
   justify-content: space-between;
